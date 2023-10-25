@@ -1,1 +1,50 @@
 /* add all items from grading group 3 and 4. Search for items in group 5 that refer to css f.e. z index */ 
+#logo1{
+    margin-left: 80px;
+}
+
+.navbar{
+    font-size: 24px;
+}
+
+#Home
+{
+
+    text-align: center;
+    margin-top: -50px;
+}
+
+#Spots
+{
+
+    text-align: center;
+    margin-top: -50px;
+    margin-left: 10em;
+}
+
+#Activities
+{
+    text-align: center;
+    margin-top: -50px;
+    margin-left: 20em;
+
+}
+
+#Transports
+{
+    text-align: center;
+    margin-top: -50px;
+    margin-left: 32em;
+}
+
+#Hotels
+{
+    text-align: center;
+    margin-top: -50px;
+    margin-left: 43em;
+}
+
+.skyline{
+    justify-content: center;
+}
+
