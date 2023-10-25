@@ -1,6 +1,6 @@
 /* add all items from grading group 3 and 4. Search for items in group 5 that refer to css f.e. z index */ 
 #logo1{
-    margin-left: 80px;
+    margin-left: 300px;
 }
 
 .navbar{
@@ -12,6 +12,7 @@
 
     text-align: center;
     margin-top: -50px;
+    margin-left: 2em;
 }
 
 #Spots
@@ -19,14 +20,14 @@
 
     text-align: center;
     margin-top: -50px;
-    margin-left: 10em;
+    margin-left: 13em;
 }
 
 #Activities
 {
     text-align: center;
     margin-top: -50px;
-    margin-left: 20em;
+    margin-left: 25em;
 
 }
 
@@ -34,17 +35,42 @@
 {
     text-align: center;
     margin-top: -50px;
-    margin-left: 32em;
+    margin-left: 38em;
 }
 
 #Hotels
 {
     text-align: center;
     margin-top: -50px;
-    margin-left: 43em;
+    margin-left: 50em;
 }
 
 .skyline{
+    display: flex;
     justify-content: center;
 }
 
+.SideStyle{
+    width: 300px;
+    height: 650px;
+    background-color: #EEE0E0;
+    margin-left: 215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+#amsterdam{
+    text-align: center;
+    margin-top: 30px;
+}
+#NiceMessage{
+  
+}
+#windmill{
+    text-align: center;
+    top: 40px;
+}
