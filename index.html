@@ -1,34 +1,76 @@
-<!-- add all items from grading group 1 and 2. Search for items in group 5 that refer to css f.e. author attribute value-->
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
-</head>
-<body>
-    <section>
-    <img id="logo1" src="img/Final Logo.png" alt="logo">
-    <nav class="navbar">
-        <p id="Home">Home</p>
-        <p id="Spots">Spots</p>
-        <p id="Activities">Activities</p>
-        <p id="Transports">Transports</p>
-        <p id="Hotels">Hotels</p>
-    </nav>
-    </section>
-    <figure class="skyline">
-    <img src="img/skyline.png" alt="skyline" height="101" width="40%">
-    <img src="img/skyline.png" alt="skyline" height="101" width="40%">
-    </figure>
-    <figure class="SideStyle">
-        <img id="amsterdam" src="img/amsterdam.png" alt="amsterdam doodle" height="100" width="100">
-        <img id="windmill" src="img/windmill.png" alt="windmill doodle" height="100" width="100">
-        <!--<p id="NiceMessage">Hey Traveller Welcome to Amsterdam</p>-->
-    </figure>
-    <figure>
-    </figure>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+    <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Starter HTML Template">
+        <meta name="author" content="ThemeEaster">
 
-</body>
+        <title>Tabeeb | HTML Template</title>
+
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+        <link rel="stylesheet" href="main.css">
+    </head>
+
+    <body class="container">
+        <!-- [if lt IE 8]>
+            <p class="browserupgrade">
+                You are using an <strong>outdated</strong> browser. Please
+                <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
+            </p>
+        <![endif] -->
+
+        <!-- Header Start -->
+        <header class="header">
+            <nav class="header-menu">
+                <a href="#"><img title="logo" src="img/logo.png" alt="logo"></a>
+                <ul>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="spots.html">Spots</a></li>
+                    <li><a href="activities.html">Activities</a></li>
+                    <li><a href="transport.html">Transports</a></li>
+                    <li><a href="hotel.html">Hotels</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- ./ Header End -->
+        
+
+        <!-- Banner Start -->
+        <section class="banner-section">
+            <img src="img/banner.png" alt="banner" title="banner">
+        </section>
+        <!-- ./ Banner End -->
+
+       
+       <!-- Main Start -->
+        <main class="main-content-wrap">
+            <aside class="main-sidebar">
+                <img src="img/building.png" alt="building" title="building">
+                <h3 class="sidebar-title"><span>Hey Traveller</span> Welcome To Amsterdam</h3>
+                <img src="img/building-2.png" alt="building" title="building">
+            </aside>
+            <article class="main-info">
+                <img src="img/content-img.jpg" alt="content" title="content">
+                <p>The city of Amsterdam has a long and storied history, dating back to the 13th century. Amsterdam played a crucial role in the Dutch Golden Age and was a hub for trade, art, and culture during this period. Its historical heritage is evident in the well-preserved architecture, including iconic canal houses and landmarks like the Anne Frank House.</p>
+                <p>Amsterdam is often referred to as the "Venice of the North" due to its extensive network of picturesque canals, which crisscross the city. These canals are lined with historic buildings, tree-lined streets, and charming bridges, creating a unique and scenic urban landscape.</p>
+                <p>Bicycles are a common mode of transportation in Amsterdam, and the city is known for its bike-friendly infrastructure. The flat terrain and numerous bike lanes make it easy for both locals and visitors to explore the city on two wheels.</p>
+                <p>Amsterdam is a cultural melting pot, known for its diverse and inclusive culture. The city is home to world-class museums, such as the Rijksmuseum, the Van Gogh Museum, and the Stedelijk Museum, showcasing an impressive collection of art and history.</p>
+                <p>Amsterdam's blend of history, culture, and progressive values makes it a captivating destination for travelers seeking a mix of heritage, art, and modern urban experiences. Its charming canals, cultural landmarks, and friendly atmosphere continue to draw visitors from around the world.</p>
+            </article>
+        </main> 
+        <!-- ./ Main End -->
+        
+        <!-- Footer Start -->
+        <footer class="footer-section">
+            <a href="index.html" class="logo"><img src="img/logo-2.png" alt="logo" title="logo"></a>
+            <p>Copyright© Tabeeb 2023</p>
+            <a href="contact.html" class="btn">Contact</a>
+        </footer>
+    </body>
 </html>
