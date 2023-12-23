@@ -252,3 +252,73 @@ body {
         column-gap: 20px;
     }
 }
+
+/*=====================================================
+    Station Section
+====================================================*/
+
+.station-section{
+    background-color: #EEE0E0;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.station-content{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-gap: 20px;
+}
+
+.station-content img{
+    width: 100%;
+}
+
+.content h4{
+    margin-bottom: 10px;
+}
+
+.content p{
+    margin-bottom: 20px;
+}
+
+.station-content.content-2{
+    display: block;
+}
+
+@media (max-width: 992px){
+    .station-content{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 767px){
+    .content{
+        padding: 0;
+        margin-top: 20px;
+    }
+}
+
+.station-list-wrap h4{
+    margin-bottom: 5px;
+}
+
+.station-list-wrap h4 span{
+    font-weight: 400;
+}
+
+.station-list-wrap .station-list{
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.station-section figure{
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.station-section figure figcaption{
+    margin-top: 10px;
+}
+
