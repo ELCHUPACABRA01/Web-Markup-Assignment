@@ -1,3 +1,6 @@
+/*=====================================================
+    
+====================================================*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&family=Jacques+Francois&family=Train+One&display=swap');
 
 *{
@@ -252,6 +255,7 @@ body {
         column-gap: 20px;
     }
 }
+
 
 /*=====================================================
     Station Section
