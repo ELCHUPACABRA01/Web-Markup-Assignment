@@ -326,3 +326,62 @@ body {
     margin-top: 10px;
 }
 
+/*=====================================================
+    Transport Section
+====================================================*/
+
+.transport-section{
+    background-color: #EEE0E0;
+    padding: 30px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 350px;
+    grid-gap: 70px;
+}
+
+.transport-section article .desc{
+    margin-bottom: 20px;
+}
+.transport-section article span{
+    display: block;
+    margin-top: 10px;
+}
+
+.transport-section article .desc-2{
+    margin-top: 20px;
+}
+.transport-section article .follow{
+    margin: 30px 0;
+}
+
+.transport-section article ul{
+    list-style: none;
+}
+
+.transport-section article ul li span{
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.transport-section article ul li:not(:last-of-type){
+    margin-bottom: 20px;
+}
+
+.transport-section figure{
+    text-align: center;
+}
+
+.transport-section figure img{
+    margin-bottom: 10px;
+}
+
+.transport-section figure:not(:last-of-type){
+    margin-bottom: 50px;
+}
+
+@media (max-width: 992px){
+    .transport-section{
+        grid-template-columns: 1fr;
+    }
+}
