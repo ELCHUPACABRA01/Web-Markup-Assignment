@@ -385,3 +385,31 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
+/*=====================================================
+    Hotel Section
+====================================================*/
+.hotel-section{
+    background-color: #EEE0E0;
+    padding: 40px;
+}
+
+.hotel-content article:not(:last-of-type){
+    margin-bottom: 30px;
+}
+
+.hotel-content article h3{
+    margin-bottom: 10px;
+}
+
+.hotel-content ul{
+    padding-left: 20px;
+}
+
+.hotel-content ul li:not(:last-of-type){
+    margin-bottom: 10px;
+}
+
+.hotel-content article p{
+    margin-top: 30px;
+}
