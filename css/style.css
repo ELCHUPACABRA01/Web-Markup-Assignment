@@ -413,3 +413,59 @@ body {
 .hotel-content article p{
     margin-top: 30px;
 }
+
+/*=====================================================
+    Contact Section
+====================================================*/
+
+.contact-section{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-gap: 25px
+}
+.contact-section ul{
+    list-style: none;
+}
+
+.contact-section ul li{
+    display: flex;
+    align-content: center;
+}
+
+.contact-section ul li:not(:last-of-type){
+    margin-bottom: 30px;
+}
+
+.contact-section ul li i{
+    width: 25px
+}
+
+.contact-section aside{
+    background-color: #EEE0E0;
+    padding: 50px 30px;
+}
+
+form h3{
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+form textarea,
+form input{
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+form p input{
+    background-color: #EEE0E0;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer
+}
+
+@media (max-width: 767px){
+    .contact-section{
+        grid-template-columns: 1fr;
+    }
+}
