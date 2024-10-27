@@ -1,18 +1,19 @@
  <!DOCTYPE html>
 <html class="no-js" lang="en">
     
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Starter HTML Template">
-        <meta name="author" content="ThemeEaster">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Starter HTML Template">
+    <meta name="author" content="ThemeEaster">
 
-        <title>Tabeeb | HTML Template</title>
+    <title>Tabeeb | HTML Template</title>
 
-        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="fontawesome-6.3.0.min.css">
-    </head>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <meta name="keywords" content="Amsterdam, travel, tourism, sightseeing, hotels">
+    <link rel="stylesheet" href="fontawesome-6.3.0.min.css">
+</head>
 
     <body class="container">      
         <header class="header">
@@ -44,28 +45,31 @@
                 </ul>
             </aside>
             <form action="#">
-               <h3>Title:</h3>
-                <label for="miss">
-                   <input type="radio" id="miss" name="miss" value="miss">
-                    Miss
-                </label>
-                <label for="mr">
-                   <input type="radio" id="mr" name="mr" value="mr">
-                    Mr.
-                </label>
-                <label for="mrs">
-                   <input type="radio" id="mrs" name="mrs" value="mrs">
-                    Mrs.
-                </label>
-                <h3>Name</h3>
-                <input type="Name" name="email" placeholder="Name">
-                <h3>E-Mail:</h3>
-                <input type="text" name="email" placeholder="E-Mail">
-                <h3>Message:</h3>
-                <textarea name="message" id="message" cols="30" rows="5" placeholder="Message"></textarea>
-                <p>
-                    <input type="submit" value="Submit">
-                </p>
+                <fieldset>
+                    <legend><strong>Contact Form</strong></legend>
+                    <h3>Title:</h3>
+                    <label for="miss">
+                        <input type="radio" id="miss" name="title" value="miss">
+                        Miss
+                    </label>
+                    <label for="mr">
+                        <input type="radio" id="mr" name="title" value="mr">
+                        Mr.
+                    </label>
+                    <label for="mrs">
+                        <input type="radio" id="mrs" name="title" value="mrs">
+                        Mrs.
+                    </label>
+                    <h3>Name</h3>
+                    <input type="text" name="name" placeholder="Name">
+                    <h3>E-Mail:</h3>
+                    <input type="email" name="email" placeholder="E-Mail">
+                    <h3>Message:</h3>
+                    <textarea name="message" id="message" cols="30" rows="5" placeholder="Message"></textarea>
+                    <p>
+                        <input type="submit" value="Submit">
+                    </p>
+                </fieldset>
             </form>
         </section>
         
