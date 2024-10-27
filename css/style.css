@@ -63,11 +63,21 @@ body {
     border-right: 1px solid #000;
 }
 
-.header-menu ul li a {
+.footer-section .btn {
+    font-family: "Jacques Francois", sans-serif;
+    background-color: #fff;
     color: #000;
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border-style: dotted;
+    border-color: aqua;
+    border-width: 3px;
     text-decoration: inherit;
+    transition: all 0.3s ease-in-out;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 .header-menu ul li a:hover,
@@ -487,4 +497,15 @@ form p input{
     .contact-section{
         grid-template-columns: 1fr;
     }
+}
+
+.header-menu ul li a:focus {
+    color: #FF6347;
+    font-weight: bold;
+}
+
+.main-info p:first-letter {
+    font-size: 2em;
+    color: #4A2EF6;
+    font-weight: bold;
 }
