@@ -1,5 +1,5 @@
-Student name: your name 
-Student number: your student number
-Student class: your class
+Student name: Md Tasnim Hasan Tabeeb
+Student number: 715660
+Student class: IT2A
 GitHub Repository: https://github.com/ELCHUPACABRA01/Web-Markup-Assignment
 GitHub Pages URL: https://elchupacabra01.github.io/Web-Markup-Assignment/
